@@ -11,10 +11,10 @@ daddyLiveChannelsFileName = '247channels.html'
 daddyLiveChannelsURL = 'https://thedaddy.to/24-7-channels.php'
 
 tvLogosFilename = 'tvlogos.html'
-tvLogosURL = 'https://github.com/tv-logo/tv-logos/tree/main/countries/italy'
+tvLogosURL = 'https://github.com/tv-logo/tv-logos/tree/main/countries/'
 
 epgs = [
-    {'filename': 'epgShare1.xml', 'url': 'https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz'}
+    {'filename': 'epgShare1.xml', 'url': 'https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz'}
 ]
 
 def delete_file_if_exists(file_path):
@@ -84,7 +84,7 @@ def generate_m3u8(matches, payload):
         return
     
     with open("out.m3u8", 'w', encoding='utf-8') as file:
-        file.write('#EXTM3U url-tvg="https://raw.githubusercontent.com/emaschi/daddylive/main/epgShare1.xml"\n')
+        file.write('#EXTM3U url-tvg="https://raw.githubusercontent.com/michael1900/daddylive/main/epgShare1.xml"\n')
         
         for channel in matches:
             channel_id = channel[0]
@@ -92,12 +92,13 @@ def generate_m3u8(matches, payload):
             
             # Cerca il logo nel payload
             logo_matches = tvlogo.search_tree_items(channel_name, payload)
+
+            tvicon_path = f'https://raw.githubusercontent.com{payload.get("initial_path", "")}/{logo_matches[0]["path"]}'
             
-            if logo_matches and "path" in logo_matches[0]:
-                tvicon_path = f'https://raw.githubusercontent.com{payload.get("initial_path", "")}/{logo_matches[0]["path"]}'
-            else:
+            # if logo_matches and "path" in logo_matches[0]:
+            # else:
                 # Logo di default se non trovato
-                tvicon_path = "https://raw.githubusercontent.com/emaschi5/daddylive/refs/heads/main/stremioita.png"  
+                # tvicon_path = "https://raw.githubusercontent.com/emaschi5/daddylive/refs/heads/main/stremioita.png"  
 
             file.write(f"#EXTINF:-1 tvg-id=\"{channel_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"TV ITA\", {channel_name}\n")
             file.write(f'#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
@@ -120,6 +121,6 @@ for epg in epgs:
     fetch_with_debug(epg['filename'], epg['url'])
 
 # Process Data
-matches = search_streams(daddyLiveChannelsFileName, "italy")
+matches = search_streams(daddyLiveChannelsFileName, "")
 payload = tvlogo.extract_payload_from_file(tvLogosFilename)
 generate_m3u8(matches, payload)
