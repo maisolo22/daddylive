@@ -66,7 +66,7 @@ def filter_and_build_epg(urls):
 m3u4u_epg = os.getenv("M3U4U_EPG")
 
 urls = [
-        'https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz',
+        'https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz'
 ]
 
 if __name__ == "__main__":
