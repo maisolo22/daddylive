@@ -100,9 +100,9 @@ def generate_m3u8(matches, payload):
                 tvicon_path = "https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg"
 
             file.write(f"#EXTINF:-1 tvg-id=\"{channel_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"TV\", {channel_name}\n")
-            file.write(f'#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
+            file.write(f'#EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/\n')
             file.write(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1\n')
-            file.write(f'#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
+            file.write(f'#EXTVLCOPT:http-origin=https://cookiewebplay.xyz\n')
             file.write(f"https://xyzdddd.mizhls.ru/lb/premium{channel_id}/index.m3u8\n\n")
     
     print("M3U8 file generated successfully.")
