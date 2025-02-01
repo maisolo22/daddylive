@@ -12,7 +12,7 @@ NUM_CHANNELS = 10000
 DADDY_JSON_FILE = "daddyliveSchedule.json"
 M3U8_OUTPUT_FILE = "daily.m3u8"
 EPG_OUTPUT_FILE = "daily.xml"
-LOGO = "https://raw.githubusercontent.com/emaschi5/daddylive/refs/heads/main/stremioita.png"
+LOGO = "https://raw.githubusercontent.com/emaschi5/daddylive/refs/heads/main/bg/daddylive-logo.png"
 
 mStartTime = 0
 mStopTime = 0
