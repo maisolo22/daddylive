@@ -14,7 +14,7 @@ tvLogosFilename = 'tvlogos.html'
 tvLogosURL = 'https://github.com/tv-logo/tv-logos/tree/main/countries/'
 
 epgs = [
-    {'filename': 'epgShare1.xml', 'url': 'https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz'}
+    {'filename': 'epgShareall.xml', 'url': 'https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz'}
 ]
 
 def delete_file_if_exists(file_path):
@@ -84,7 +84,7 @@ def generate_m3u8(matches, payload):
         return
     
     with open("outall.m3u8", 'w', encoding='utf-8') as file:
-        file.write('#EXTM3U url-tvg="https://raw.githubusercontent.com/michael1900/daddylive/main/epgShare1.xml"\n')
+        file.write('#EXTM3U url-tvg="https://raw.githubusercontent.com/michael1900/daddylive/main/epgShareall.xml"\n')
         
         for channel in matches:
             channel_id = channel[0]
