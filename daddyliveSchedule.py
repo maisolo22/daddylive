@@ -12,7 +12,7 @@ NUM_CHANNELS = 10000
 DADDY_JSON_FILE = "daddyliveSchedule.json"
 M3U8_OUTPUT_FILE = "daily.m3u8"
 EPG_OUTPUT_FILE = "daily.xml"
-LOGO = "https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/stremioita.png"
+LOGO = "https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/daddylive-logo.png"
 
 mStartTime = 0
 mStopTime = 0
@@ -106,7 +106,7 @@ def addChannelsByLeagueSport():
                             file.write(f'#EXTINF:-1 tvg-id="{UniqueID}" tvg-name="{tvgName}" tvg-logo="{LOGO}" group-title="Live", {tvLabel}\n')
                             file.write(f'#EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/\n')
                             file.write(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1\n')
-                            file.write(f'#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
+                            file.write(f'#EXTVLCOPT:http-origin=https://cookiewebplay.xyz\n')
                             file.write(f"https://xyzdddd.mizhls.ru/lb/premium{channelID}/index.m3u8\n")
                             file.write('\n')
 
@@ -139,7 +139,7 @@ for id in unique_ids:
         file.write(f'#EXTINF:-1 tvg-id="{id}" tvg-name="{tvgName}" tvg-logo="{LOGO}" group-title="Live", {tvgName}\n')
         file.write(f'#EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/\n')
         file.write(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1\n')
-        file.write(f'#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
+        file.write(f'#EXTVLCOPT:http-origin=https://cookiewebplay.xyz\n')
         file.write(f"https://xyzdddd.mizhls.ru/lb/premium{channelNumber}/index.m3u8\n")
         file.write('\n')
         channelCount += 1
