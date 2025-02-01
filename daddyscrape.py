@@ -99,7 +99,7 @@ def generate_m3u8(matches, payload):
                 # Logo di default se non trovato
                 tvicon_path = "https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/stremioita.png"
 
-            file.write(f"#EXTINF:-1 tvg-id=\"{channel_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"TV ITA\", {channel_name}\n")
+            file.write(f"#EXTINF:-1 tvg-id=\"{channel_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"TV\", {channel_name}\n")
             file.write(f'#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
             file.write(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1\n')
             file.write(f'#EXTVLCOPT:http-origin=https://ilovetoplay.xyz\n')
