@@ -83,7 +83,7 @@ def generate_m3u8(matches, payload):
         print("No matches found. Skipping M3U8 generation.")
         return
     
-    with open("out.m3u8", 'w', encoding='utf-8') as file:
+    with open("outall.m3u8", 'w', encoding='utf-8') as file:
         file.write('#EXTM3U url-tvg="https://raw.githubusercontent.com/michael1900/daddylive/main/epgShare1.xml"\n')
         
         for channel in matches:
