@@ -93,11 +93,11 @@ def generate_m3u8(matches, payload):
             # Cerca il logo nel payload
             logo_matches = tvlogo.search_tree_items(channel_name, payload)
             
-            if logo_matches and "path" in logo_matches[0]:
-            tvicon_path = f'https://raw.githubusercontent.com{payload.get("initial_path", "")}/{logo_matches[0]["path"]}'
+            if logo_matches and "path" in (logo_matches[0]):
+                tvicon_path = f'https://raw.githubusercontent.com{payload.get("initial_path", "")}/{logo_matches[0]["path"]}'
             else:
                 # Logo di default se non trovato
-                tvicon_path = "https://raw.githubusercontent.com/emaschi5/daddylive/refs/heads/main/stremioita.png"  
+                tvicon_path = "https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/stremioita.png"
 
             file.write(f"#EXTINF:-1 tvg-id=\"{channel_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"TV ITA\", {channel_name}\n")
             file.write(f'#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
