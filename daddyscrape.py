@@ -84,7 +84,7 @@ def generate_m3u8(matches, payload):
         return
     
     with open("out.m3u8", 'w', encoding='utf-8') as file:
-        file.write('#EXTM3U url-tvg="https://raw.githubusercontent.com/emaschi/daddylive/main/epgShare1.xml"\n')
+        file.write('#EXTM3U url-tvg="https://raw.githubusercontent.com/michael1900/daddylive/main/epgShare1.xml"\n')
         
         for channel in matches:
             channel_id = channel[0]
@@ -97,7 +97,7 @@ def generate_m3u8(matches, payload):
                 tvicon_path = f'https://raw.githubusercontent.com{payload.get("initial_path", "")}/{logo_matches[0]["path"]}'
             else:
                 # Logo di default se non trovato
-                tvicon_path = "https://raw.githubusercontent.com/emaschi5/daddylive/refs/heads/main/stremioita.png"  
+                tvicon_path = "https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg"
 
             file.write(f"#EXTINF:-1 tvg-id=\"{channel_id}\" tvg-name=\"{channel_name}\" tvg-logo=\"{tvicon_path}\" group-title=\"TV ITA\", {channel_name}\n")
             file.write(f'#EXTVLCOPT:http-referrer=https://ilovetoplay.xyz/\n')
