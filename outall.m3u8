@@ -27,11 +27,11 @@ https://xyzdddd.mizhls.ru/lb/premium/index/index.m3u8
 #EXTVLCOPT:http-origin=https://cookiewebplay.xyz
 https://xyzdddd.mizhls.ru/lb/premiumchannels/index.m3u8
 
-#EXTINF:-1 tvg-id="generated.json" tvg-name="Schedule API" tvg-logo="https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg" group-title="TV", Schedule API
+#EXTINF:-1 tvg-id="generated" tvg-name="Schedule API" tvg-logo="https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg" group-title="TV", Schedule API
 #EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-origin=https://cookiewebplay.xyz
-https://xyzdddd.mizhls.ru/lb/premiumgenerated.json/index.m3u8
+https://xyzdddd.mizhls.ru/lb/premiumgenerated/index.m3u8
 
 #EXTINF:-1 tvg-id="us" tvg-name="Contact Us" tvg-logo="https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg" group-title="TV", Contact Us
 #EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/
@@ -45,11 +45,11 @@ https://xyzdddd.mizhls.ru/lb/premiumus/index.m3u8
 #EXTVLCOPT:http-origin=https://cookiewebplay.xyz
 https://xyzdddd.mizhls.ru/lb/premium#/index.m3u8
 
-#EXTINF:-1 tvg-id="https://discord.gg/Q3GEJx4zBU" tvg-name="Discord" tvg-logo="https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg" group-title="TV", Discord
+#EXTINF:-1 tvg-id="https://discord.gg/MqXusreQ2w" tvg-name="Discord" tvg-logo="https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg" group-title="TV", Discord
 #EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-origin=https://cookiewebplay.xyz
-https://xyzdddd.mizhls.ru/lb/premiumhttps://discord.gg/Q3GEJx4zBU/index.m3u8
+https://xyzdddd.mizhls.ru/lb/premiumhttps://discord.gg/MqXusreQ2w/index.m3u8
 
 #EXTINF:-1 tvg-id="https://t.me/dlhdlive" tvg-name="Telegram" tvg-logo="https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg" group-title="TV", Telegram
 #EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/
@@ -1449,11 +1449,11 @@ https://xyzdddd.mizhls.ru/lb/premium824/index.m3u8
 #EXTVLCOPT:http-origin=https://cookiewebplay.xyz
 https://xyzdddd.mizhls.ru/lb/premium825/index.m3u8
 
-#EXTINF:-1 tvg-id="767" tvg-name="Fox Sports Argentina" tvg-logo="https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg" group-title="TV", Fox Sports Argentina
+#EXTINF:-1 tvg-id="787" tvg-name="Fox Sports Argentina" tvg-logo="https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg" group-title="TV", Fox Sports Argentina
 #EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-origin=https://cookiewebplay.xyz
-https://xyzdddd.mizhls.ru/lb/premium767/index.m3u8
+https://xyzdddd.mizhls.ru/lb/premium787/index.m3u8
 
 #EXTINF:-1 tvg-id="788" tvg-name="Fox Sports 2 Argentina" tvg-logo="https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg" group-title="TV", Fox Sports 2 Argentina
 #EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/
@@ -3441,11 +3441,11 @@ https://xyzdddd.mizhls.ru/lb/premium738/index.m3u8
 #EXTVLCOPT:http-origin=https://cookiewebplay.xyz
 https://xyzdddd.mizhls.ru/lb/premium739/index.m3u8
 
-#EXTINF:-1 tvg-id="601" tvg-name="Smithsonian Channel" tvg-logo="https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg" group-title="TV", Smithsonian Channel
+#EXTINF:-1 tvg-id="603" tvg-name="Smithsonian Channel" tvg-logo="https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg" group-title="TV", Smithsonian Channel
 #EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-origin=https://cookiewebplay.xyz
-https://xyzdddd.mizhls.ru/lb/premium601/index.m3u8
+https://xyzdddd.mizhls.ru/lb/premium603/index.m3u8
 
 #EXTINF:-1 tvg-id="31" tvg-name="TNT Sports 1 UK" tvg-logo="https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg" group-title="TV", TNT Sports 1 UK
 #EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/
@@ -4460,6 +4460,12 @@ https://xyzdddd.mizhls.ru/lb/premium773/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-origin=https://cookiewebplay.xyz
 https://xyzdddd.mizhls.ru/lb/premium798/index.m3u8
+
+#EXTINF:-1 tvg-id="767" tvg-name="Fox Sports Argentina" tvg-logo="https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg" group-title="TV", Fox Sports Argentina
+#EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://cookiewebplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium767/index.m3u8
 
 #EXTINF:-1 tvg-id="279" tvg-name="FUSE TV USA" tvg-logo="https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg" group-title="TV", FUSE TV USA
 #EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/
