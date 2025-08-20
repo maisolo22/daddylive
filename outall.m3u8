@@ -663,6 +663,12 @@ https://xyzdddd.mizhls.ru/lb/premium48/index.m3u8
 #EXTVLCOPT:http-origin=https://cookiewebplay.xyz
 https://xyzdddd.mizhls.ru/lb/premium73/index.m3u8
 
+#EXTINF:-1 tvg-id="259" tvg-name="Canal+ Sport 3 Poland" tvg-logo="https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg" group-title="TV", Canal+ Sport 3 Poland
+#EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-origin=https://cookiewebplay.xyz
+https://xyzdddd.mizhls.ru/lb/premium259/index.m3u8
+
 #EXTINF:-1 tvg-id="75" tvg-name="CANAL+ SPORT 5 Poland" tvg-logo="https://raw.githubusercontent.com/michael1900/daddylive/refs/heads/main/bg/ddy-logo.jpg" group-title="TV", CANAL+ SPORT 5 Poland
 #EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
